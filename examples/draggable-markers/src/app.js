@@ -5,7 +5,7 @@ import MapGL, {Marker, NavigationControl} from 'react-map-gl';
 import ControlPanel from './control-panel';
 import Pin from './pin';
 
-const TOKEN = ''; // Set your mapbox token here
+const TOKEN = 'pk.eyJ1IjoiZGVya2FjaCIsImEiOiJjanFjdWFzeGozejZnNDNvYmpsbXR1azJzIn0.03a1jcE5orWtncfaDCxuPA'; // Set your mapbox token here
 
 const navStyle = {
   position: 'absolute',

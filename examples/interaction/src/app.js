@@ -5,7 +5,7 @@ import ControlPanel from './control-panel';
 
 import bartStations from './bart-station.json';
 
-const MAPBOX_TOKEN = ''; // Set your mapbox token here
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiZGVya2FjaCIsImEiOiJjanFjdWFzeGozejZnNDNvYmpsbXR1azJzIn0.03a1jcE5orWtncfaDCxuPA'; // Set your mapbox token here
 
 import MARKER_STYLE from './marker-style';
 

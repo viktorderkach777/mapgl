@@ -8,7 +8,7 @@ import CityInfo from './city-info';
 
 import CITIES from '../../data/cities.json';
 
-const TOKEN = ''; // Set your mapbox token here
+const TOKEN = 'pk.eyJ1IjoiZGVya2FjaCIsImEiOiJjanFjdWFzeGozejZnNDNvYmpsbXR1azJzIn0.03a1jcE5orWtncfaDCxuPA'; // Set your mapbox token here
 
 const fullscreenControlStyle = {
   position: 'absolute',

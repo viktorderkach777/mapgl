@@ -3,7 +3,7 @@ import {render} from 'react-dom';
 import MapGL from 'react-map-gl';
 import ControlPanel from './control-panel';
 
-const MAPBOX_TOKEN = ''; // Set your mapbox token here
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiZGVya2FjaCIsImEiOiJjanFjdWFzeGozejZnNDNvYmpsbXR1azJzIn0.03a1jcE5orWtncfaDCxuPA'; // Set your mapbox token here
 
 export default class App extends Component {
   state = {

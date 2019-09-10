@@ -7,7 +7,7 @@ import bbox from '@turf/bbox';
 import ControlPanel from './control-panel';
 import MAP_STYLE from './map-style';
 
-const TOKEN = ''; // Set your mapbox token here
+const TOKEN = 'pk.eyJ1IjoiZGVya2FjaCIsImEiOiJjanFjdWFzeGozejZnNDNvYmpsbXR1azJzIn0.03a1jcE5orWtncfaDCxuPA'; // Set your mapbox token here
 
 export default class App extends Component {
   constructor(props) {

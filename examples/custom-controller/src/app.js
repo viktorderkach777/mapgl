@@ -7,7 +7,7 @@ import ControlPanel from './control-panel';
 import MapController from './map-controller';
 const customController = new MapController();
 
-const MAPBOX_TOKEN = ''; // Set your mapbox token here
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiZGVya2FjaCIsImEiOiJjanFjdWFzeGozejZnNDNvYmpsbXR1azJzIn0.03a1jcE5orWtncfaDCxuPA'; // Set your mapbox token here
 
 export default class App extends Component {
   state = {

@@ -30,7 +30,7 @@ import ChoroplethOverlay from './choropleth-overlay';
 import ZIPCODES_SF from '../../data/feature-example-sf.json';
 import CITIES from '../../data/cities.json';
 
-const MAPBOX_TOKEN = ''; // Set your mapbox token here
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiZGVya2FjaCIsImEiOiJjanFjdWFzeGozejZnNDNvYmpsbXR1azJzIn0.03a1jcE5orWtncfaDCxuPA; // Set your mapbox token here
 
 const ZIPCODES = Immutable.fromJS(ZIPCODES_SF.features).map(f =>
   f.setIn(['properties', 'value'], Math.random() * 1000)
